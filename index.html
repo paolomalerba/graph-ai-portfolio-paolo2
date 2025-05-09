@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paolo Malerba – Generative AI for Work &amp; Research Portfolio</title>
+  <!-- Google Fonts – light, modern sans‑serif -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --primary: #2e7d32; /* green tone */
+      --text: #333;
+      --text-light: #555;
+      --card-bg: #ffffff;
+      --card-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: var(--card-bg);
+      box-shadow: var(--card-shadow);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.8rem 1rem;
+    }
+    .nav h1 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 0;
+    }
+    .nav a {
+      margin-left: 1.2rem;
+      text-decoration: none;
+      color: var(--text-light);
+      font-weight: 500;
+    }
+    .nav a:hover, .nav a:focus {
+      color: var(--primary);
+    }
+    /* Hero with circular photo */
+    .hero {
+      display: flex;
+      justify-content: center;
+      padding: 1.5rem 1rem;
+    }
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--primary);
+    }
+    section {
+      padding: 4rem 1rem 2rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 1.5rem 2rem;
+      box-shadow: var(--card-shadow);
+    }
+    ul.modules {
+      list-style: disc inside;
+      padding-left: 0;
+    }
+    ul.modules li {
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+    ul.weeks {
+      list-style: none;
+      padding-left: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.8rem;
+    }
+    ul.weeks li {
+      background: var(--card-bg);
+      border-radius: 10px;
+      box-shadow: var(--card-shadow);
+      padding: 1rem 1.2rem;
+      text-align: center;
+      font-weight: 600;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem 4rem;
+      font-size: 0.9rem;
+      color: var(--text-light);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <h1>Paolo Malerba</h1>
+      <div>
+        <a href="#about-me">About&nbsp;Me</a>
+        <a href="#about-course">About&nbsp;the&nbsp;Course</a>
+        <a href="#submissions">Weekly&nbsp;Submissions</a>
+      </div>
+    </nav>
+    <!-- Circular photo at top -->
+    <div class="hero">
+      <img src="Immagine WhatsApp 2023-11-06 ore 20.41.04_3bb36b51.jpg" alt="Paolo Malerba" class="profile-pic">
+    </div>
+  </header>
+
+  <main>
+    <!-- About Me -->
+    <section id="about-me">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="card">
+          <p>Hi! I’m <strong>Paolo Malerba</strong>, an Emergency Medicine physician and current PhD candidate at CRIMEDIM (University of Novara). My professional journey includes clinical work across Lombardy hospitals, coordination roles with <em>Emergency NGO</em>, and peer‑reviewed research on cardiovascular and global health topics.</p>
+          <p>I’m passionate about leveraging emerging technologies—especially generative AI—to advance healthcare, streamline research, and empower teams. This portfolio will document my progress throughout the <em>Generative AI for Work &amp; Research</em> course.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About the Course -->
+    <section id="about-course">
+      <div class="container">
+        <h2 class="section-title">About the Course</h2>
+        <div class="card">
+          <p><strong>Generative AI for Work &amp; Research Productivity</strong> is an 8‑week, live‑online certification that teaches no‑code AI tools for task automation, data analysis, content creation, and knowledge management.</p>
+          <p><strong>Next cohort:</strong> <time datetime="2025-05-09">May 9, 2025</time> &nbsp;|&nbsp; <strong>Format:</strong> Online classroom<br>
+          Choose one of the weekly 2‑hour workshop times: Fridays 15:00 GMT or Sundays 17:00 GMT.</p>
+          <h3 style="margin-top:1.2rem;font-weight:600;">Course Highlights</h3>
+          <ul class="modules">
+            <li>Automate documents, spreadsheets, and data workflows</li>
+            <li>Organize knowledge and perform literature reviews with AI</li>
+            <li>Create custom chatbots &amp; RAG systems</li>
+            <li>Design AI workflows for task automation across platforms</li>
+            <li>Produce visuals, presentations, and outreach materials with GenAI</li>
+            <li>Capstone project to showcase a real‑world AI solution</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Weekly Submissions -->
+    <section id="submissions">
+      <div class="container">
+        <h2 class="section-title">My Weekly Submissions</h2>
+        <p>Links to each week’s assignment will appear below as the course progresses:</p>
+        <ul class="weeks">
+          <li>Week 1 – <em>Coming soon</em></li>
+          <li>Week 2 – <em>Coming soon</em></li>
+          <li>Week 3 – <em>Coming soon</em></li>
+          <li>Week 4 – <em>Coming soon</em></li>
+          <li>Week 5 – <em>Coming soon</em></li>
+          <li>Week 6 – <em>Coming soon</em></li>
+          <li>Week 7 – <em>Coming soon</em></li>
+          <li>Week 8 – <em>Coming soon</em></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Paolo Malerba.   This site is a personal portfolio for the <em>Generative AI for Work &amp; Research</em> course.
+  </footer>
+</body>
+</html>
